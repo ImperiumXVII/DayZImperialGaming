@@ -58,6 +58,7 @@ class cfgVehicles {
 		{
 			"Butthole"
 		};
+		itemInfo[]= { "Knife", "Butthole" };
 	};
 };
 
