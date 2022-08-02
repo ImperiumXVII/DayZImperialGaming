@@ -9,10 +9,21 @@ class CfgPatches
 		{
 			"DZ_Characters",
 			"DZ_Characters_Tops",
-			"DZ_Data"
 		};
 	};
 };
+
+class CfgMods
+{
+	class IGClothing
+	{
+		dir="IGClothing";
+		name="Imperial Gaming";
+		dependencies[]={"World"};
+		type = "mod";
+	};
+};
+
 class cfgVehicles
 {
 	class HikingJacket_ColorBase;

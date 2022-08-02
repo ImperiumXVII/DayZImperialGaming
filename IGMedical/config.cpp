@@ -18,7 +18,7 @@ class CfgMods
 	{
 		dir="IGMedical";
 		name="Imperial Gaming";
-		dependencies[]={"Mission"};
+		dependencies[]={"World"};
 
 		type = "mod";
 
