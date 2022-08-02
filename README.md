@@ -17,7 +17,6 @@ IG_FreshieJacket_Purple
 IG_FreshieJacket_Grey
 IG_FreshieJacket_White
 ```
-
 ### Pants
 ```
 IG_FreshiePants
