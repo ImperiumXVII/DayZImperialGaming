@@ -2,7 +2,7 @@ class ActionPackWoundCB : ActionContinuousBaseCB
 {
 	override void CreateActionComponent()
 	{
-		m_ActionData.m_ActionComponent = new CAContinuousTime(5);
+		m_ActionData.m_ActionComponent = new CAContinuousTime(UATimeSpent.BANDAGE);
 	}
 };
 
@@ -71,8 +71,21 @@ class ActionPackWound: ActionContinuousBase
 		}
 	}
 
+	override void OnStart(ActionData action_data)
+	{
+		super.OnStart(action_data);
+		
+		action_data.m_Player.TryHideItemInHands(true);
+	}
+
+	override void OnEnd(ActionData action_data)
+	{
+		action_data.m_Player.TryHideItemInHands(false);
+	}
+
 	override void CreateConditionComponents()  
 	{		
+		m_ConditionItem = new CCINone;
 		m_ConditionTarget = new CCTSurface(UAMaxDistances.DEFAULT);
 	}
 	
@@ -88,11 +101,7 @@ class ActionPackWound: ActionContinuousBase
 
 	override void OnFinishProgressServer( ActionData action_data )
 	{	
-		PlayerBase target = PlayerBase.Cast(action_data.m_Player);
-		if(action_data.m_MainItem && target)
-		{
-			PackWound(target);
-			action_data.m_Player.GetSoftSkillsManager().AddSpecialty(m_SpecialtyWeight);
-		}
+		PackWound(action_data.m_Player);
+		action_data.m_Player.GetSoftSkillsManager().AddSpecialty(m_SpecialtyWeight);
 	}
 };
