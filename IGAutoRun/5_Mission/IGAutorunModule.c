@@ -62,4 +62,4 @@ modded class MissionGameplay {
 		}
 	}
 
-}
+};

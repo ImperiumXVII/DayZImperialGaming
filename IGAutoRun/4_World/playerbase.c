@@ -32,4 +32,4 @@ modded class PlayerBase extends ManBase
     {
         return m_autorunEnabled;
     }
-}
+};

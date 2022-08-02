@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class ImperialGaming_Medical
+	class IGMedical
 	{
 		units[]={};
 		weapons[]={};
@@ -8,6 +8,26 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"DZ_Data"
+		};
+	};
+};
+
+class CfgMods
+{
+	class IGMedical
+	{
+		dir="IGMedical";
+		name="Imperial Gaming";
+		dependencies[]={"Mission"};
+
+		type = "mod";
+
+		class defs
+		{
+			class worldScriptModule
+			{
+				files[] = {"IGMedical/scripts/4_World"};
+			};
 		};
 	};
 };

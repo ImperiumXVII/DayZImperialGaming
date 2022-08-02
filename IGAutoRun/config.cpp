@@ -26,7 +26,7 @@ class CfgMods
 			};
 			class worldScriptModule
 			{
-				files[] = {"IGAutorRun/4_World"};
+				files[] = {"IGAutoRun/4_World"};
 			};
 		};
 	};
