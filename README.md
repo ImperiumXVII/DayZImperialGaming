@@ -43,6 +43,3 @@ Weapons & weapon modifications used by Imperial Gaming.
 
 ### Current Features
 * Prison Wallet to store a Stone Knife
-
-## IGWorldLighting
-Custom world lighting configuration to make nights more challenging, but shorter, without having to resort to time multipliers that make the moon fly across the sky.
