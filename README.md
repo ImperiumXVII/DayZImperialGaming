@@ -30,8 +30,13 @@ IG_FreshiePants_White
 ```
 
 ## IGMedical
-Planned medical system. Current planned features:
+Planned medical system.
+
+### Current Features
 * Use dirt to stop bleeding by looking at the ground. Very high chance of causing Wound Infection disease.
+
+### Planned Features
+
 
 ## IGWorldLighting
 Custom world lighting configuration to make nights more challenging, but shorter, without having to resort to time multipliers that make the moon fly across the sky.
