@@ -16,6 +16,9 @@ IG_FreshieJacket_Blue
 IG_FreshieJacket_Purple
 IG_FreshieJacket_Grey
 IG_FreshieJacket_White
+IG_NBCJacketMTP
+IG_NBCJacketCADPAT
+IG_NBCJacketCRW
 ```
 ### Pants
 ```
@@ -27,6 +30,31 @@ IG_FreshiePants_Blue
 IG_FreshiePants_Purple
 IG_FreshiePants_Grey
 IG_FreshiePants_White
+IG_NBCPantsMTP
+IG_NBCPantsCADPAT
+IG_NBCPantsCRW
+```
+### Headgear
+```
+IG_NBCHoodMTP
+IG_NBCHoodCADPAT
+IG_NBCHoodCRW
+```
+### Masks
+```
+IG_AirborneMask_CRW
+```
+### Shoes
+```
+IG_NBCBoots_Black
+```
+### Gloves
+```
+IG_NBCGloves_Black
+```
+### Equipment
+```
+IG_GasMask_Filter_CRW
 ```
 
 ## IGMedical
