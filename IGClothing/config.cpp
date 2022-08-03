@@ -52,7 +52,6 @@ class cfgVehicles
 			"IGClothing\data\tops\nbc_jacket_mtp.paa",
 			"IGClothing\data\tops\nbc_jacket_mtp.paa"
 		};
-		itemsCargoSize[]={7,6};
 	};
 	class IG_NBCJacketCRWW: IG_NBCJacketMTP
 	{
@@ -62,6 +61,7 @@ class cfgVehicles
 			"IGClothing\data\tops\nbc_jacket_crww.paa",
 			"IGClothing\data\tops\nbc_jacket_crww.paa"
 		};
+		itemsCargoSize[]={7,6};
 	};
 	class IG_NBCJacketCADPAT: IG_NBCJacketMTP
 	{
@@ -81,11 +81,6 @@ class cfgVehicles
 			"IGClothing\data\pants\nbc_pants_mtp.paa",
 			"IGClothing\data\pants\nbc_pants_mtp.paa"
 		};
-		itemsCargoSize[]={5,6};
-		attachments[]=
-		{
-			"GasMaskFilter"
-		};
 	};
 	class IG_NBCPantsCRWW: IG_NBCPantsMTP
 	{
@@ -94,6 +89,11 @@ class cfgVehicles
 			"IGClothing\data\pants\nbc_pants_crww.paa",
 			"IGClothing\data\pants\nbc_pants_crww.paa",
 			"IGClothing\data\pants\nbc_pants_crww.paa"
+		};
+		itemsCargoSize[]={5,6};
+		attachments[]=
+		{
+			"GasMaskFilter"
 		};
 	};
 	class IG_NBCPantsCADPAT: IG_NBCPantsMTP
