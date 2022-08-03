@@ -26,15 +26,77 @@ class CfgMods
 
 class cfgVehicles
 {
-	class GP5GasMask_Filter;
-	class IG_GP5GasMask_Unlimited: GP5GasMask_Filter
+	class GasMask_Filter;
+	class IG_GasMask_Filter_CRW: GasMask_Filter
 	{
-		displayName="Reinforced Gas Mask Filter";
-		descriptionShort="A respirator cartridge. Designed to fit the most common gas masks mounts. This version seems to have a sturdier filter.";
+		displayName="Gas Mask Filter (CRW)";
+		descriptionShort="Rumoured to be part of the CBRN kit used by the Counter Revolutionary Warfare (CRW) wing of the UK's 22nd Special Air Service Regiment. Nobody knows why this kit is in Chernarus.";
 		weight=200;
 		varQuantityInit=250;
-		varQuantityMin=250;
+		varQuantityMin=0;
 		varQuantityMax=250;
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\gear\consumables\gasmask_filter_crww.paa"
+		};
+	};
+
+	class AirborneMask;
+	class IG_AirborneMask_CRW: AirborneMask
+	{
+		displayName="CBRN Respirator (CRW)";
+		descriptionShort="Rumoured to be part of the CBRN kit used by the Counter Revolutionary Warfare (CRW) wing of the UK's 22nd Special Air Service Regiment. Nobody knows why this kit is in Chernarus.";
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\masks\airborne_mask_crww.paa"
+			"IGClothing\data\masks\airborne_mask_crww.paa"
+			"IGClothing\data\masks\airborne_mask_crww.paa"
+			"\dz\characters\masks\data\gp5gasmask_white_co.paa",
+			"\dz\characters\masks\data\airborne_mask_glass_ca.paa"
+		};
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=100;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\tops\Data\WoolCoat.rvmat",
+								"dz\characters\masks\data\airborne_mask_glass.rvmat",
+								"dz\characters\masks\data\gp5gasmask.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\tops\Data\WoolCoat_damage.rvmat",
+								"dz\characters\masks\data\airborne_mask_glass.rvmat",
+								"dz\characters\masks\data\gp5gasmask_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\tops\Data\WoolCoat_destruct.rvmat",
+								"dz\characters\masks\data\airborne_mask_glass.rvmat",
+								"dz\characters\masks\data\gp5gasmask_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+		};
 	};
 
 	class NBCJacketBase;
@@ -53,7 +115,7 @@ class cfgVehicles
 			"IGClothing\data\tops\nbc_jacket_mtp.paa"
 		};
 	};
-	class IG_NBCJacketCRWW: IG_NBCJacketMTP
+	class IG_NBCJacketCRW: IG_NBCJacketMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -62,6 +124,65 @@ class cfgVehicles
 			"IGClothing\data\tops\nbc_jacket_crww.paa"
 		};
 		itemsCargoSize[]={7,6};
+		displayName="CBRN Jacket (CRW)";
+		descriptionShort="Rumoured to be part of the CBRN kit used by the Counter Revolutionary Warfare (CRW) wing of the UK's 22nd Special Air Service Regiment. Nobody knows why this kit is in Chernarus.";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat.rvmat",
+								"DZ\characters\tops\Data\woolcoat.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat.rvmat",
+								"DZ\characters\tops\Data\woolcoat.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+							}
+						}
+					};
+				};
+			};
+		};
 	};
 	class IG_NBCJacketCADPAT: IG_NBCJacketMTP
 	{
@@ -82,7 +203,7 @@ class cfgVehicles
 			"IGClothing\data\pants\nbc_pants_mtp.paa"
 		};
 	};
-	class IG_NBCPantsCRWW: IG_NBCPantsMTP
+	class IG_NBCPantsCRW: IG_NBCPantsMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -94,6 +215,65 @@ class cfgVehicles
 		attachments[]=
 		{
 			"GasMaskFilter"
+		};
+		displayName="CBRN Pants (CRW)";
+		descriptionShort="Rumoured to be part of the CBRN kit used by the Counter Revolutionary Warfare (CRW) wing of the UK's 22nd Special Air Service Regiment. Nobody knows why this kit is in Chernarus.";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat.rvmat",
+								"DZ\characters\tops\Data\woolcoat.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat.rvmat",
+								"DZ\characters\tops\Data\woolcoat.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+							}
+						}
+					};
+				};
+			};
 		};
 	};
 	class IG_NBCPantsCADPAT: IG_NBCPantsMTP
@@ -115,13 +295,72 @@ class cfgVehicles
 			"IGClothing\data\headgear\nbc_hood_mtp.paa"
 		};
 	};
-	class IG_NBCHoodCRWW: IG_NBCHoodMTP
+	class IG_NBCHoodCRW: IG_NBCHoodMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
 			"IGClothing\data\headgear\nbc_hood_crww.paa",
 			"IGClothing\data\headgear\nbc_hood_crww.paa",
 			"IGClothing\data\headgear\nbc_hood_crww.paa"
+		};
+		displayName="CBRN Hood (CRW)";
+		descriptionShort="Rumoured to be part of the CBRN kit used by the Counter Revolutionary Warfare (CRW) wing of the UK's 22nd Special Air Service Regiment. Nobody knows why this kit is in Chernarus.";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat.rvmat",
+								"DZ\characters\tops\Data\woolcoat.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat.rvmat",
+								"DZ\characters\tops\Data\woolcoat.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+							}
+						}
+					};
+				};
+			};
 		};
 	};
 	class IG_NBCHoodCADPAT: IG_NBCHoodMTP
