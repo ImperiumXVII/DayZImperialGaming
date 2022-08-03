@@ -68,7 +68,7 @@ class cfgVehicles
 							1,
 							
 							{
-								"DZ\characters\tops\Data\WoolCoat.rvmat",
+								"DZ\characters\pants\Data\CargoPants.rvmat",
 								"dz\characters\masks\data\airborne_mask_glass.rvmat",
 								"dz\characters\masks\data\gp5gasmask.rvmat"
 							}
@@ -78,7 +78,7 @@ class cfgVehicles
 							0.5,
 							
 							{
-								"DZ\characters\tops\Data\WoolCoat_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
 								"dz\characters\masks\data\airborne_mask_glass.rvmat",
 								"dz\characters\masks\data\gp5gasmask_damage.rvmat"
 							}
@@ -88,7 +88,7 @@ class cfgVehicles
 							0,
 							
 							{
-								"DZ\characters\tops\Data\WoolCoat_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_destruct.rvmat",
 								"dz\characters\masks\data\airborne_mask_glass.rvmat",
 								"dz\characters\masks\data\gp5gasmask_destruct.rvmat"
 							}
@@ -132,6 +132,7 @@ class cfgVehicles
 			{
 				class Health
 				{
+					hitpoints=100;
 					healthLevels[]=
 					{
 						
@@ -139,8 +140,8 @@ class cfgVehicles
 							1,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat.rvmat",
-								"DZ\characters\tops\Data\woolcoat.rvmat"
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
 							}
 						},
 						
@@ -148,8 +149,8 @@ class cfgVehicles
 							0.69999999,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat.rvmat",
-								"DZ\characters\tops\Data\woolcoat.rvmat"
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
 							}
 						},
 						
@@ -157,8 +158,8 @@ class cfgVehicles
 							0.5,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
 							}
 						},
 						
@@ -166,8 +167,8 @@ class cfgVehicles
 							0.30000001,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
 							}
 						},
 						
@@ -175,8 +176,8 @@ class cfgVehicles
 							0,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
-								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_destruct.rvmat"
 							}
 						}
 					};
@@ -224,6 +225,7 @@ class cfgVehicles
 			{
 				class Health
 				{
+					hitpoints=100;
 					healthLevels[]=
 					{
 						
@@ -231,8 +233,8 @@ class cfgVehicles
 							1,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat.rvmat",
-								"DZ\characters\tops\Data\woolcoat.rvmat"
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
 							}
 						},
 						
@@ -240,8 +242,8 @@ class cfgVehicles
 							0.69999999,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat.rvmat",
-								"DZ\characters\tops\Data\woolcoat.rvmat"
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
 							}
 						},
 						
@@ -249,8 +251,8 @@ class cfgVehicles
 							0.5,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
 							}
 						},
 						
@@ -258,8 +260,8 @@ class cfgVehicles
 							0.30000001,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
 							}
 						},
 						
@@ -267,8 +269,8 @@ class cfgVehicles
 							0,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
-								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_destruct.rvmat"
 							}
 						}
 					};
@@ -311,6 +313,7 @@ class cfgVehicles
 			{
 				class Health
 				{
+					hitpoints=100;
 					healthLevels[]=
 					{
 						
@@ -318,8 +321,8 @@ class cfgVehicles
 							1,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat.rvmat",
-								"DZ\characters\tops\Data\woolcoat.rvmat"
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
 							}
 						},
 						
@@ -327,8 +330,8 @@ class cfgVehicles
 							0.69999999,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat.rvmat",
-								"DZ\characters\tops\Data\woolcoat.rvmat"
+								"DZ\characters\pants\Data\CargoPants.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g.rvmat"
 							}
 						},
 						
@@ -336,8 +339,8 @@ class cfgVehicles
 							0.5,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
 							}
 						},
 						
@@ -345,8 +348,8 @@ class cfgVehicles
 							0.30000001,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
-								"DZ\characters\tops\Data\woolcoat_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_damage.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_damage.rvmat"
 							}
 						},
 						
@@ -354,8 +357,8 @@ class cfgVehicles
 							0,
 							
 							{
-								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
-								"DZ\characters\tops\Data\woolcoat_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_destruct.rvmat",
+								"DZ\characters\pants\Data\CargoPants_g_destruct.rvmat"
 							}
 						}
 					};
