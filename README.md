@@ -6,6 +6,8 @@ Simple AutoRun script. NumPad+ allows you to sprint, even with a broken leg (tho
 ## IGClothing
 All the clothing that Imperial Gaming uses.
 
+![CRW CBRN suit](https://cdn.discordapp.com/attachments/1004058648852570255/1004229810794541187/unknown.png)
+
 ### Tops
 ```
 IG_FreshieJacket
@@ -58,7 +60,9 @@ IG_GasMask_Filter_CRW
 ```
 
 ## IGMedical
-Planned medical system.
+Medical system.
+
+![Medical System](https://media.discordapp.net/attachments/492295610586759188/1004141307540815992/unknown.png)
 
 ### Current Features
 * Use dirt to stop bleeding by looking at the ground. Very high chance of causing Wound Infection disease.
@@ -68,6 +72,8 @@ Planned medical system.
 
 ## IGWeapons
 Weapons & weapon modifications used by Imperial Gaming.
+
+![Prison Wallet](https://media.discordapp.net/attachments/805262986599333939/1004175530041544844/unknown.png)
 
 ### Current Features
 * Prison Wallet to store a Stone Knife
