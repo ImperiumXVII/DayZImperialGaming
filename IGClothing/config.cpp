@@ -54,7 +54,7 @@ class cfgVehicles
 		};
 		itemsCargoSize[]={7,6};
 	};
-	class IG_NBCJacketCADPAT: NBCJacketMTP
+	class IG_NBCJacketCADPAT: IG_NBCJacketMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -78,7 +78,7 @@ class cfgVehicles
 			"GasMaskFilter"
 		};
 	};
-	class IG_NBCPantsCADPAT: NBCPantsMTP
+	class IG_NBCPantsCADPAT: IG_NBCPantsMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -97,7 +97,7 @@ class cfgVehicles
 			"IGClothing\data\headgear\nbc_hood_mtp.paa"
 		};
 	};
-	class IG_NBCHoodCADPAT: NBCHoodMTP
+	class IG_NBCHoodCADPAT: IG_NBCHoodMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
