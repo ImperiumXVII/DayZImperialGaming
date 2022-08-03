@@ -27,7 +27,7 @@ class CfgMods
 class cfgVehicles
 {
 	class GP5GasMask_Filter;
-	class GP5GasMask_Unlimited: GP5GasMask_Filter
+	class IG_GP5GasMask_Unlimited: GP5GasMask_Filter
 	{
 		displayName="Reinforced Gas Mask Filter";
 		descriptionShort="A respirator cartridge. Designed to fit the most common gas masks mounts. This version seems to have a sturdier filter.";
@@ -43,7 +43,7 @@ class cfgVehicles
 	class NBCBootsBase;
 	class NBCGloves_ColorBase;
 
-	class NBCJacketMTP: NBCJacketBase
+	class IG_NBCJacketMTP: NBCJacketBase
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -54,7 +54,7 @@ class cfgVehicles
 		};
 		itemsCargoSize[]={7,6};
 	};
-	class NBCJacketCADPAT: NBCJacketMTP
+	class IG_NBCJacketCADPAT: NBCJacketMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -63,7 +63,7 @@ class cfgVehicles
 			"IGClothing\data\tops\nbc_jacket_cadpat.paa"
 		};
 	};
-	class NBCPantsMTP: NBCPantsBase
+	class IG_NBCPantsMTP: NBCPantsBase
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -78,7 +78,7 @@ class cfgVehicles
 			"GasMaskFilter"
 		};
 	};
-	class NBCPantsCADPAT: NBCPantsMTP
+	class IG_NBCPantsCADPAT: NBCPantsMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -87,7 +87,7 @@ class cfgVehicles
 			"IGClothing\data\pants\nbc_pants_cadpat.paa"
 		};
 	};
-	class NBCHoodMTP: NBCHoodBase
+	class IG_NBCHoodMTP: NBCHoodBase
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -97,7 +97,7 @@ class cfgVehicles
 			"IGClothing\data\headgear\nbc_hood_mtp.paa"
 		};
 	};
-	class NBCHoodCADPAT: NBCHoodMTP
+	class IG_NBCHoodCADPAT: NBCHoodMTP
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -106,7 +106,7 @@ class cfgVehicles
 			"IGClothing\data\headgear\nbc_hood_cadpat.paa"
 		};
 	};
-	class NBCBootsBlack: NBCBootsBase
+	class IG_NBCBootsBlack: NBCBootsBase
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
@@ -120,7 +120,7 @@ class cfgVehicles
 			"Knife"
 		};
 	};
-	class NBCGlovesBlack: NBCGloves_ColorBase
+	class IG_NBCGlovesBlack: NBCGloves_ColorBase
 	{
 		scope=2;
 		hiddenSelectionsTextures[]=
