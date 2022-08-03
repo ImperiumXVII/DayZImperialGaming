@@ -26,6 +26,111 @@ class CfgMods
 
 class cfgVehicles
 {
+	class GP5GasMask_Filter;
+	class GP5GasMask_Unlimited: GP5GasMask_Filter
+	{
+		displayName="Reinforced Gas Mask Filter";
+		descriptionShort="A respirator cartridge. Designed to fit the most common gas masks mounts. This version seems to have a sturdier filter.";
+		weight=200;
+		varQuantityInit=250;
+		varQuantityMin=250;
+		varQuantityMax=250;
+	};
+
+	class NBCJacketBase;
+	class NBCPantsBase;
+	class NBCHoodBase;
+	class NBCBootsBase;
+	class NBCGloves_ColorBase;
+
+	class NBCJacketMTP: NBCJacketBase
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\tops\nbc_jacket_mtp.paa",
+			"IGClothing\data\tops\nbc_jacket_mtp.paa",
+			"IGClothing\data\tops\nbc_jacket_mtp.paa"
+		};
+		itemsCargoSize[]={7,6};
+	};
+	class NBCJacketCADPAT: NBCJacketMTP
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\tops\nbc_jacket_cadpat.paa",
+			"IGClothing\data\tops\nbc_jacket_cadpat.paa",
+			"IGClothing\data\tops\nbc_jacket_cadpat.paa"
+		};
+	};
+	class NBCPantsMTP: NBCPantsBase
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\pants\nbc_pants_mtp.paa",
+			"IGClothing\data\pants\nbc_pants_mtp.paa",
+			"IGClothing\data\pants\nbc_pants_mtp.paa"
+		};
+		itemsCargoSize[]={5,6};
+		attachments[]=
+		{
+			"GasMaskFilter"
+		};
+	};
+	class NBCPantsCADPAT: NBCPantsMTP
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\pants\nbc_pants_cadpat.paa",
+			"IGClothing\data\pants\nbc_pants_cadpat.paa",
+			"IGClothing\data\pants\nbc_pants_cadpat.paa"
+		};
+	};
+	class NBCHoodMTP: NBCHoodBase
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\headgear\nbc_hood_mtp.paa",
+			"IGClothing\data\headgear\nbc_hood_mtp.paa",
+			"IGClothing\data\headgear\nbc_hood_mtp.paa"
+		};
+	};
+	class NBCHoodCADPAT: NBCHoodMTP
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\headgear\nbc_hood_cadpat.paa",
+			"IGClothing\data\headgear\nbc_hood_cadpat.paa",
+			"IGClothing\data\headgear\nbc_hood_cadpat.paa"
+		};
+	};
+	class NBCBootsBlack: NBCBootsBase
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\shoes\nbc_boots_black.paa",
+			"IGClothing\data\shoes\nbc_boots_black.paa",
+			"IGClothing\data\shoes\nbc_boots_black.paa"
+		};
+		attachments[]=
+		{
+			"Knife"
+		};
+	};
+	class NBCGlovesBlack: NBCGloves_ColorBase
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\gloves\nbc_gloves_black.paa",
+			"IGClothing\data\gloves\nbc_gloves_black.paa",
+			"IGClothing\data\gloves\nbc_gloves_black.paa"
+		};
+	};
+
 	class HikingJacket_ColorBase;
 	class IG_FreshieJacket: HikingJacket_ColorBase
 	{
