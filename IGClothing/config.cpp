@@ -48,9 +48,9 @@ class cfgVehicles
 		descriptionShort="Rumoured to be part of the CBRN kit used by the Counter Revolutionary Warfare (CRW) wing of the UK's 22nd Special Air Service Regiment. Nobody knows why this kit is in Chernarus.";
 		hiddenSelectionsTextures[]=
 		{
-			"IGClothing\data\masks\airborne_mask_crww.paa"
-			"IGClothing\data\masks\airborne_mask_crww.paa"
-			"IGClothing\data\masks\airborne_mask_crww.paa"
+			"IGClothing\data\masks\airborne_mask_crww.paa",
+			"IGClothing\data\masks\airborne_mask_crww.paa",
+			"IGClothing\data\masks\airborne_mask_crww.paa",
 			"\dz\characters\masks\data\gp5gasmask_white_co.paa",
 			"\dz\characters\masks\data\airborne_mask_glass_ca.paa"
 		};
