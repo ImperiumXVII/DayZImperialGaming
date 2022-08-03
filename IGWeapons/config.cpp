@@ -26,10 +26,31 @@ class CfgMods
 	};
 };
 
-class cfgVehicles {
+class CfgVehicles {
 
 	class Man;
 	class SurvivorBase: Man {
+		attachments[]=
+		{
+			"Head",
+			"Shoulder",
+			"Melee",
+			"Headgear",
+			"Mask",
+			"Eyewear",
+			"Hands",
+			"LeftHand",
+			"Gloves",
+			"Armband",
+			"Vest",
+			"Body",
+			"Back",
+			"Hips",
+			"Legs",
+			"Feet",
+			"Splint_Right",
+			"Butthole"
+		};
 		class InventoryEquipment
 		{
 			playerSlots[]=
@@ -47,7 +68,7 @@ class cfgVehicles {
 				"Slot_Gloves",
 				"Slot_Feet",
 				"Slot_Armband",
-				"Slot_PrisonPocket"
+				"Slot_Butthole"
 			};
 		};
 	};
@@ -58,14 +79,14 @@ class cfgVehicles {
 		{
 			"Butthole"
 		};
-		itemInfo[]= { "Knife", "Butthole" };
 	};
 };
 
-class cfgSlots {
-	class Slot_PrisonPocket {
+class CfgSlots {
+	class Slot_Butthole {
 		name = "Butthole";
 		displayName = "Prison Wallet";
 		ghostIcon = "knife";
+		selection="slot_butthole";
 	};
 };
