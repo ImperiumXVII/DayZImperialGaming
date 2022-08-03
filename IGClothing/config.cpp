@@ -54,6 +54,15 @@ class cfgVehicles
 		};
 		itemsCargoSize[]={7,6};
 	};
+	class IG_NBCJacketCRWW: IG_NBCJacketMTP
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\tops\nbc_jacket_crww.paa",
+			"IGClothing\data\tops\nbc_jacket_crww.paa",
+			"IGClothing\data\tops\nbc_jacket_crww.paa"
+		};
+	};
 	class IG_NBCJacketCADPAT: IG_NBCJacketMTP
 	{
 		hiddenSelectionsTextures[]=
@@ -78,6 +87,15 @@ class cfgVehicles
 			"GasMaskFilter"
 		};
 	};
+	class IG_NBCPantsCRWW: IG_NBCPantsMTP
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\pants\nbc_pants_crww.paa",
+			"IGClothing\data\pants\nbc_pants_crww.paa",
+			"IGClothing\data\pants\nbc_pants_crww.paa"
+		};
+	};
 	class IG_NBCPantsCADPAT: IG_NBCPantsMTP
 	{
 		hiddenSelectionsTextures[]=
@@ -95,6 +113,15 @@ class cfgVehicles
 			"IGClothing\data\headgear\nbc_hood_mtp.paa",
 			"IGClothing\data\headgear\nbc_hood_mtp.paa",
 			"IGClothing\data\headgear\nbc_hood_mtp.paa"
+		};
+	};
+	class IG_NBCHoodCRWW: IG_NBCHoodMTP
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"IGClothing\data\headgear\nbc_hood_crww.paa",
+			"IGClothing\data\headgear\nbc_hood_crww.paa",
+			"IGClothing\data\headgear\nbc_hood_crww.paa"
 		};
 	};
 	class IG_NBCHoodCADPAT: IG_NBCHoodMTP
