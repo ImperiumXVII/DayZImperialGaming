@@ -99,6 +99,11 @@ class cfgVehicles
 		};
 	};
 
+	class Transmitter_Base;
+	class BaseRadio: Transmitter_Base {
+		itemsCargoSize[]={7,9};
+	};
+
 	class NBCJacketBase;
 	class NBCPantsBase;
 	class NBCHoodBase;
