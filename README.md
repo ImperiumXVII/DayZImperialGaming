@@ -1,7 +1,7 @@
 # DayZImperialGaming
 
 ## IGAutoRun
-Simple AutoRun script. NumPad+ allows you to sprint, even with a broken leg (though speed depends on your health & other factors such as a broken leg).
+Simple AutoRun script. NumPad+ (editable in the Controls menu) allows you to sprint, even with a broken leg (though speed depends on your health & other factors such as a broken leg).
 
 ## IGClothing
 All the clothing that Imperial Gaming uses.
