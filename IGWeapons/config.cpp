@@ -74,9 +74,23 @@ class CfgVehicles {
 	};
 
 	class Inventory_Base;
+
+	class M9A1_Bayonet: Inventory_Base {
+		inventorySlot[] = {
+			"Knife",
+			"weaponBayonet"
+		};
+	};
+
+	class AK_Bayonet: Inventory_Base {
+		inventorySlot[] = {
+			"weaponBayonetAK",
+			"Knife"
+		};
+	};
+
 	class StoneKnife: Inventory_Base {
-		inventorySlot[]=
-		{
+		inventorySlot[] = {
 			"Butthole"
 		};
 	};
