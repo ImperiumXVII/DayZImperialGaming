@@ -101,7 +101,7 @@ class cfgVehicles
 
 	class Transmitter_Base;
 	class BaseRadio: Transmitter_Base {
-		itemsCargoSize[]={7,9};
+		itemsCargoSize[]={7,6};
 	};
 
 	class NBCJacketBase;
@@ -128,7 +128,7 @@ class cfgVehicles
 			"IGClothing\data\tops\nbc_jacket_crww.paa",
 			"IGClothing\data\tops\nbc_jacket_crww.paa"
 		};
-		itemsCargoSize[]={7,6};
+		itemsCargoSize[]={5,6};
 		displayName="CBRN Jacket (CRW)";
 		descriptionShort="Rumoured to be part of the CBRN kit used by the Counter Revolutionary Warfare (CRW) wing of the UK's 22nd Special Air Service Regiment. Nobody knows why this kit is in Chernarus.";
 		class DamageSystem
@@ -408,7 +408,7 @@ class cfgVehicles
 	class HikingJacket_ColorBase;
 	class IG_FreshieJacket: HikingJacket_ColorBase
 	{
-		itemsCargoSize[]={5,4};
+		itemsCargoSize[]={4,3};
 		varWetMax=0.0;
 		ragQuantity=6;
 		scope=2;
@@ -497,7 +497,7 @@ class cfgVehicles
 	class GorkaPants_ColorBase;
 	class IG_FreshiePants: GorkaPants_ColorBase
 	{
-		itemsCargoSize[]={4,5};
+		itemsCargoSize[]={3,4};
 		varWetMax=0.0;
 		ragQuantity=6;
 		scope=2;
