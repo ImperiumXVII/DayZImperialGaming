@@ -54,6 +54,11 @@ class cfgVehicles
 			"\dz\characters\masks\data\gp5gasmask_white_co.paa",
 			"\dz\characters\masks\data\airborne_mask_glass_ca.paa"
 		};
+		class Protection
+		{
+			biological=0;
+			chemical=1;
+		};
 		class DamageSystem
 		{
 			class GlobalHealth
@@ -118,6 +123,11 @@ class cfgVehicles
 			"IGClothing\data\tops\nbc_jacket_mtp.paa",
 			"IGClothing\data\tops\nbc_jacket_mtp.paa",
 			"IGClothing\data\tops\nbc_jacket_mtp.paa"
+		};
+		class Protection
+		{
+			biological=1;
+			chemical=1;
 		};
 	};
 	class IG_NBCJacketCRW: IG_NBCJacketMTP
@@ -207,6 +217,11 @@ class cfgVehicles
 			"IGClothing\data\pants\nbc_pants_mtp.paa",
 			"IGClothing\data\pants\nbc_pants_mtp.paa",
 			"IGClothing\data\pants\nbc_pants_mtp.paa"
+		};
+		class Protection
+		{
+			biological=1;
+			chemical=1;
 		};
 	};
 	class IG_NBCPantsCRW: IG_NBCPantsMTP
@@ -301,6 +316,11 @@ class cfgVehicles
 			"IGClothing\data\headgear\nbc_hood_mtp.paa",
 			"IGClothing\data\headgear\nbc_hood_mtp.paa"
 		};
+		class Protection
+		{
+			biological=1;
+			chemical=1;
+		};
 	};
 	class IG_NBCHoodCRW: IG_NBCHoodMTP
 	{
@@ -389,9 +409,10 @@ class cfgVehicles
 			"IGClothing\data\shoes\nbc_boots_black.paa",
 			"IGClothing\data\shoes\nbc_boots_black.paa"
 		};
-		attachments[]=
+		class Protection
 		{
-			"Knife"
+			biological=1;
+			chemical=1;
 		};
 	};
 	class IG_NBCGlovesBlack: NBCGloves_ColorBase

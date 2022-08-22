@@ -94,6 +94,15 @@ class CfgVehicles {
 			"Butthole"
 		};
 	};
+
+	class Pistol_Base;
+	class Derringer_Base: Pistol_Base {
+		inventorySlot[] = {
+			"Knife",
+			"Pistol"
+		};
+	}
+
 };
 
 class CfgSlots {
